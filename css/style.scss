@@ -1,6 +1,9 @@
 
 p {
-  text-script: adjust_color();
+  text-script: adjust_color(#ffff);
+  div{
+    display: block;
+  }
 }
 
 
