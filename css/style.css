@@ -5,6 +5,27 @@ p div {
   display: block;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+body header {
+  background-color: darkgreen;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  min-height: 15%;
+  background-color: darkgreen;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 /*!
  * Copyright (c) 2020. Planche Dylan autoentrepreneur
  */

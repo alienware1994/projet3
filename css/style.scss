@@ -1,10 +1,31 @@
-
+@import "variable";
 p {
   text-script: adjust_color(#ffff);
   div{
     display: block;
   }
 }
+body {
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  header{
+    background-color: darkgreen;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+footer {
+  min-height: 15%;
+  background-color: darkgreen;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 
 
 /*!
