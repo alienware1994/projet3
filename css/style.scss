@@ -1,31 +1,48 @@
 @import "variable";
 
 img{
-  width: 10%;
+  width: 50%;
   height: auto;
   box-shadow: 0px 0px 1em 1px #00000040;
 }
 body {
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
   header{
-    background-color: darkgreen;
+    background-color: #579C87;
     width: 100%;
     display: flex;
     justify-content: center;
+    font-family: 'Montserrat';
+    letter-spacing: -2px;
+    color: #FDCB46;
   }
-
+  footer {
+    min-height: 15%;
+    background-color: #579C87;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  p{
+    font-family: cursive;
+    color: #FDCB46;
+  }
+  .btn{
+    color: #FDCB46;
+    padding: 15px 25px;
+    background-color: #579C87;
+    border-radius: 10px;
+  }
+  .divbtn {
+    display: flex;
+    padding: 10px 10px;
+    justify-content: center;
+  }
 }
 
-footer {
-  min-height: 15%;
-  background-color: darkgreen;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
 .bloc{
   display: grid;
   grid-template-columns: 1fr 1fr;
