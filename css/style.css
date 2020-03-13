@@ -2,6 +2,7 @@ img {
   width: 50%;
   height: auto;
   box-shadow: 0px 0px 1em 1px #00000040;
+  display: none;
 }
 
 body {
@@ -30,16 +31,25 @@ body p {
   font-family: cursive;
   color: #FDCB46;
 }
+body .menu {
+  align-self: center;
+  text-align: center;
+}
 body .btn {
   color: #FDCB46;
   padding: 15px 25px;
   background-color: #579C87;
   border-radius: 10px;
+  font-family: Montserrat;
 }
 body .divbtn {
   display: flex;
   padding: 10px 10px;
   justify-content: center;
+}
+body div {
+  align-self: center;
+  text-align: center;
 }
 
 .bloc {
@@ -48,6 +58,16 @@ body .divbtn {
   grid-gap: 38px 1em;
   justify-content: center;
   text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  align-self: center;
+  justify-items: center;
+  grid-gap: 25px;
+  background-color: antiquewhite;
 }
 
 /*!
