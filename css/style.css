@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script:wght@600&family=Devonshire&family=Kaushan+Script&display=swap");
+@font-face {
+  font-family: "devonshire";
+  src: url("font/Devonshire-Regular") format("ttf");
+  font-style: normal;
+}
 img {
   width: 50%;
   height: auto;
@@ -8,8 +14,11 @@ img {
 body {
   display: flex;
   flex-direction: column;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin: 0;
+}
+body a {
+  text-decoration: none;
+  color: none;
 }
 body header {
   background-color: #579C87;
@@ -31,13 +40,49 @@ body p {
   font-family: cursive;
   color: #FDCB46;
 }
-body .menu {
+body .menu1b {
   align-self: center;
   text-align: center;
+  background-color: #fcdfdb;
+}
+body .menu2b {
+  background-color: #fff5fe;
+}
+body .menu3b {
+  background-color: #f9f9f9;
+}
+body .menu4b {
+  background-color: #fdfffd;
+}
+body .menu1 {
+  font-family: "Devonshire";
+  background: black;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body .menu2 {
+  font-family: "Croissant One";
+  background: -webkit-linear-gradient(left, #e27f0e, #8f5aff);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body .menu3 {
+  font-family: "Dancing Script";
+  background: -webkit-linear-gradient(left, #0229dd, #0889fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body .menu4 {
+  font-family: "Kaushan Script";
+  background: -webkit-linear-gradient(left, #43973d, #beff7f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 body .btn {
   color: #FDCB46;
-  padding: 15px 25px;
+  padding: 15px 26px;
   background-color: #579C87;
   border-radius: 10px;
   font-family: Montserrat;
@@ -46,6 +91,9 @@ body .divbtn {
   display: flex;
   padding: 10px 10px;
   justify-content: center;
+}
+body .main {
+  background-color: #fcdfdb;
 }
 body div {
   align-self: center;
@@ -60,12 +108,18 @@ body div {
   text-align: center;
 }
 
+.menu {
+  width: 70%;
+}
+
+.prix {
+  width: 30%;
+}
+
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 300px 300px;
-  align-self: center;
-  justify-items: center;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 500px 500px;
   grid-gap: 25px;
   background-color: antiquewhite;
 }

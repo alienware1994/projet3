@@ -1,5 +1,18 @@
 @import "variable";
 
+@font-face{
+  font-family: "devonshire";
+  src: url("font/Devonshire-Regular") format("ttf");
+  font-style: normal;
+}
+// font pour menu1 !!!
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script:wght@600&family=Devonshire&family=Kaushan+Script&display=swap');
+// font menu2
+
+// font menu3
+
+// font menu4
+
 img{
   width: 50%;
   height: auto;
@@ -9,8 +22,14 @@ img{
 body {
   display: flex;
   flex-direction: column;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin: 0;
+  // margin-left: 25%;
+  // margin-right: 25%;
+  a {
+    text-decoration: none;
+    color: none;
+    // font-family: 'Devonshire';
+  }
   header{
     background-color: #579C87;
     width: 100%;
@@ -31,6 +50,9 @@ body {
     font-family: cursive;
     color: #FDCB46;
   }
+  h2{
+
+  }
   // .grid{
   //   display: grid;
   //   grid-template-columns: 1fr 1fr;
@@ -40,16 +62,51 @@ body {
   //   grid-gap: 25px;
   // }
 
-  .menu{
+  .menu1b{
     // display: block;
     // width: 60%;
     align-self: center;
     text-align: center;
-
+    background-color: #fcdfdb;
+  }
+  .menu2b{
+    background-color: #fff5fe;
+  }
+  .menu3b{
+    background-color: #f9f9f9;
+  }
+  .menu4b{
+    background-color: #fdfffd;
+  }
+  .menu1{
+    font-family: 'Devonshire';
+    background: black;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .menu2{
+    font-family: 'Croissant One';
+    background: -webkit-linear-gradient(left, #e27f0e, #8f5aff);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .menu3{
+    font-family: 'Dancing Script';
+    background: -webkit-linear-gradient(left, #0229dd, #0889fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .menu4{
+    font-family: 'Kaushan Script';
+    background: -webkit-linear-gradient(left, #43973d, #beff7f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .btn{
     color: #FDCB46;
-    padding: 15px 25px;
+    padding: 15px 26px;
     background-color: #579C87;
     border-radius: 10px;
     font-family: Montserrat;
@@ -58,6 +115,9 @@ body {
     display: flex;
     padding: 10px 10px;
     justify-content: center;
+  }
+  .main{
+    background-color:#fcdfdb;
   }
   div{
     align-self: center;
@@ -75,14 +135,16 @@ body {
   text-align: center;
 }
 .menu{
-
+ width: 70%
 }
+.prix{
+  width: 30%
+}
+
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 300px 300px;
-    align-self: center;
-    justify-items: center;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 500px 500px;
     grid-gap: 25px;
     background-color: antiquewhite;
 }
