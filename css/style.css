@@ -1,14 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script:wght@600&family=Devonshire&family=Kaushan+Script&display=swap");
-@font-face {
-  font-family: "devonshire";
-  src: url("font/Devonshire-Regular") format("ttf");
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 img {
-  width: 50%;
-  height: auto;
-  box-shadow: 0px 0px 1em 1px #00000040;
-  display: none;
+  width: 44%;
+  height: 20%;
 }
 
 body {
@@ -19,6 +15,13 @@ body {
 body a {
   text-decoration: none;
   color: none;
+  text-decoration: none;
+  color: none;
+  height: 100%;
+  color: #fdcb46 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 body header {
   background-color: #579C87;
@@ -35,24 +38,101 @@ body footer {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  position: sticky;
+  bottom: 0;
 }
 body p {
   font-family: cursive;
+}
+body .scaleeffect {
+  transform: scale(1);
+  opacity: 1;
+  transition: transform 600ms;
+}
+body .scaleeffect:hover {
+  transform: scale(1.4);
+  opacity: 0.7;
+  transition-duration: 600ms;
+}
+body i {
+  background: -webkit-linear-gradient(left, #f05060, #f6916a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+body .titlea {
+  font-family: "Montserrat";
+  letter-spacing: -2px;
   color: #FDCB46;
 }
+body .pmenu1 {
+  font-family: "Kalam", cursive;
+  color: #000000;
+  font-size: 30px;
+}
+body .pmenu2 {
+  font-family: "flow";
+  font-size: 30px;
+  color: #e27f0e;
+  font-weight: bold;
+}
+body .pmenu3 {
+  font-family: "Kalam", cursive;
+  font-size: 30px;
+  color: #0889fb;
+}
+body .pmenu4 {
+  font-family: "Kalam", cursive;
+  font-size: 30px;
+  color: #43973D;
+}
 body .menu1b {
+  display: flex;
+  text-decoration: none;
+  color: none;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
   align-self: center;
   text-align: center;
   background-color: #fcdfdb;
+  box-shadow: 0 0 8px 2px #9b9b9b;
 }
 body .menu2b {
   background-color: #fff5fe;
+  display: flex;
+  text-decoration: none;
+  color: none;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  box-shadow: 0 0 8px 2px #9b9b9b;
 }
 body .menu3b {
-  background-color: #f9f9f9;
+  background-color: #edefef;
+  display: flex;
+  text-decoration: none;
+  color: none;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  box-shadow: 0 0 8px 2px #9b9b9b;
 }
 body .menu4b {
   background-color: #fdfffd;
+  display: flex;
+  text-decoration: none;
+  color: none;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  box-shadow: 0 0 8px 2px #9b9b9b;
 }
 body .menu1 {
   font-family: "Devonshire";
@@ -60,6 +140,7 @@ body .menu1 {
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 40px;
 }
 body .menu2 {
   font-family: "Croissant One";
@@ -67,20 +148,34 @@ body .menu2 {
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 25px;
 }
 body .menu3 {
   font-family: "Dancing Script";
   background: -webkit-linear-gradient(left, #0229dd, #0889fb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 35px;
 }
 body .menu4 {
   font-family: "Kaushan Script";
   background: -webkit-linear-gradient(left, #43973d, #beff7f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 35px;
+}
+body .sectionlegale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 74%;
+  margin: auto;
+  padding: 40px;
 }
 body .btn {
+  display: flex;
+  flex-direction: row;
+  font-size: x-large;
   color: #FDCB46;
   padding: 15px 26px;
   background-color: #579C87;
@@ -89,17 +184,257 @@ body .btn {
 }
 body .divbtn {
   display: flex;
-  padding: 10px 10px;
+  padding: 10px;
   justify-content: center;
 }
 body .main {
   background-color: #fcdfdb;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+  padding-top: 50px;
+}
+body .main2 {
+  background-color: #fff5fe;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+body .main3 {
+  background-color: #edefef;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 8px 2px #9b9b9b;
+  margin: auto;
+  padding-bottom: 60px;
+}
+body .main4 {
+  background-color: #fdfffc;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
 }
 body div {
   align-self: center;
   text-align: center;
 }
+body .menupapilles {
+  text-align: left;
+  margin: 70px auto;
+  background-color: #fcdfdb;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+body .bodymenu1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+body .bodymenu2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  color: #C87412;
+  font-size: 20px;
+}
+body .bodymenu2a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  color: #A567A6;
+  font-size: 20px;
+}
+body .bodymenu2b {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  color: #6E4CCC;
+  font-size: 20px;
+}
+body .menufood1 {
+  width: 70%;
+  display: flex;
+}
+body .menufood2 {
+  display: flex;
+  width: 80%;
+  font-size: 25px;
+}
+body .menufood3 {
+  width: 90%;
+  text-align: left;
+}
+body .menufood4 {
+  width: 90%;
+  text-align: left;
+}
+body .titlemenu1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  width: 100%;
+  font-family: "Courgette", cursive;
+}
+body .titleh1menu2 {
+  font-family: "Croissant One";
+  background: -webkit-linear-gradient(left, #e27f0e, #8f5aff);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  align-self: center;
+  text-align: center;
+}
+body .titlemenuh1 {
+  font-family: "Devonshire", cursive;
+  font-size: 80px;
+  align-self: center;
+  font-weight: 500;
+}
+body .titlemenuh2 {
+  font-family: "Devonshire", cursive;
+  font-size: 40px;
+  font-weight: lighter;
+}
+body .divh2 {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-evenly;
+}
+body .imgmenu1 {
+  width: auto;
+  height: 20%;
+}
+body .imgmenu2 {
+  width: 30%;
+}
+body .titlemenu2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  justify-content: space-around;
+  color: #C87412;
+}
+body .titlemenu2a {
+  color: #A567A6;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  justify-content: space-around;
+}
+body .titlemenu2b {
+  color: #6E4CCC;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  justify-content: space-around;
+}
+body .titlemenu3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Sriracha";
+}
+body .titlemenu4 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Courgette", cursive;
+}
+body .bodymenu3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 58%;
+  font-size: 22px;
+  font-family: "Sriracha";
+}
+body .bodymenu4 {
+  font-family: "Courgette", lighter;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  font-size: 22px;
+}
+body .titleh1menu3 {
+  font-family: "Dancing Script";
+  background: -webkit-linear-gradient(left, #0229dd, #0889fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px;
+  text-align: center;
+}
+body .titleh1menu4 {
+  font-family: "Kaushan Script";
+  background: -webkit-linear-gradient(left, #43973d, #beff7f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  text-align: center;
+}
+body .prixmenu2 {
+  width: 20%;
+  font-weight: bold;
+}
+body .prixmenu3 {
+  width: 10%;
+  text-align: left;
+  font-weight: bold;
+}
+body .prixmenu4 {
+  width: 10%;
+  font-weight: bold;
+  text-align: end;
+}
+body .imgmenu3 {
+  width: 30%;
+  height: 20%;
+  padding: 0 30px;
+}
+body .imgmenu4 {
+  width: auto;
+}
 
+.dots {
+  content: ".";
+  animation: dots 2.2s steps(5, end) infinite;
+  padding-left: 5px;
+}
+
+@keyframes dots {
+  0%, 20% {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  40% {
+    color: #FFCA28;
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  60% {
+    text-shadow: 0.25em 0 0 #FFCA28, 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  100%, 80% {
+    text-shadow: 0.25em 0 0 #FFCA28, 0.5em 0 0 #FFCA28;
+  }
+}
 .bloc {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -109,21 +444,361 @@ body div {
 }
 
 .menu {
-  width: 70%;
+  text-align: left;
+  margin: 70px auto;
+  background-color: #fcdfdb;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  box-shadow: 0 0 8px 2px #9b9b9b;
+}
+
+.menuchic {
+  text-align: left;
+  margin: 70px auto;
+  background-color: #FFF5FE;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  box-shadow: 0 0 8px 2px #9b9b9b;
+}
+
+.menupalette {
+  margin: 70px auto;
+  background-color: #FFF5FE;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  box-shadow: 0 0 8px 2px #9b9b9b;
 }
 
 .prix {
   width: 30%;
+  text-align: right;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 300px 300px;
-  grid-template-rows: 500px 500px;
-  grid-gap: 25px;
-  background-color: antiquewhite;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 600px 600px;
+  grid-gap: 70px;
+  padding-top: 70px;
 }
 
+.link,
+.link2,
+.link2a,
+.link2b,
+.link3,
+.link4 {
+  position: relative;
+}
+
+.link:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #000000;
+  transition: width 0.6s ease;
+  -webkit-transition: width 0.6s ease;
+}
+
+.link:hover:after {
+  width: 100%;
+  left: 0;
+  background: #000000;
+}
+
+.link2:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #C67412;
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
+}
+
+.link2:hover:after {
+  width: 100%;
+  left: 0;
+  background: #C67412;
+}
+
+.link2a:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #A56799;
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
+}
+
+.link2a:hover:after {
+  width: 100%;
+  left: 0;
+  background: #A56799;
+}
+
+.link2b:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #6E4CCC;
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
+}
+
+.link2b:hover:after {
+  width: 100%;
+  left: 0;
+  background: #6E4CCC;
+}
+
+.link3:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: -webkit-linear-gradient(left, #0229dd, #0889fb);
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
+}
+
+.link3:hover:after {
+  width: 100%;
+  left: 0;
+  background: -webkit-linear-gradient(left, #0229dd, #0889fb);
+}
+
+.link4:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: -webkit-linear-gradient(left, #43973d, #beff7f);
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
+}
+
+.link4:hover:after {
+  width: 100%;
+  left: 0;
+  background: -webkit-linear-gradient(left, #43973d, #beff7f);
+}
+
+.legal {
+  color: #fdcb46;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.legal:hover {
+  animation: shake 1s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.contact {
+  color: #fdcb46;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact:hover {
+  animation: shake 1s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@media (max-width: 600px) {
+  .grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 400px 400px 400px;
+  }
+
+  .menu {
+    width: 95%;
+    box-shadow: 0 0 8px 2px #9b9b9b;
+  }
+
+  .titlemenu1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .titlemenu2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 15px;
+    justify-content: space-around;
+    color: #C87412;
+    flex-direction: column;
+  }
+
+  .titlemenu2a {
+    flex-direction: column;
+  }
+
+  .titlemenu2b {
+    flex-direction: column;
+  }
+
+  .menuchic {
+    width: 95%;
+  }
+
+  .menupapilles {
+    width: 95% !important;
+  }
+
+  .bodymenu2 {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .titlemenu3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    flex-direction: column;
+  }
+
+  .bodymenu3 {
+    display: flex;
+    flex-direction: column !important;
+    flex-wrap: wrap;
+    width: 80% !important;
+    align-items: center;
+    font-size: 22px;
+  }
+
+  body .titlemenu4 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 20px;
+  }
+  body .bodymenu1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  body .menufood1 {
+    width: 90%;
+    display: flex;
+    font-family: "Courgette", cursive;
+    font-size: 25px;
+  }
+  body .prix {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Courgette", cursive;
+    font-size: 25px;
+  }
+  body .imgmenu4 {
+    width: 100%;
+  }
+  body .bodymenu4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    font-size: 22px;
+  }
+  body .menufood4 {
+    width: 90%;
+    text-align: center;
+  }
+  body .bodymenu2a {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  body .bodymenu2b {
+    text-align: center;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  body .main2 {
+    width: 95%;
+    margin: auto;
+  }
+  body .main4 {
+    width: 95%;
+  }
+  body .menufood2 {
+    width: auto;
+    font-size: 25px;
+  }
+  body .menupalette {
+    width: 95%;
+  }
+  body .menufood3 {
+    text-align: center;
+    font-size: 25px;
+  }
+}
 /*!
  * Copyright (c) 2020. Planche Dylan autoentrepreneur
  */
