@@ -1,11 +1,10 @@
 $shadow: 0 0 8px 2px #9b9b9b;
-$animate: all 0.2s ease-in-out; // font pour menu1 !!!
+$animate: all 0.2s ease-in-out; // font pour menu !!!
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script:wght@600&family=Devonshire&family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap'); // font menu2
-// font menu3
-// font menu4
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap'); 
+
 img {
   width: 44%;
   height: 20%;
@@ -15,8 +14,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  // margin-left: 25%;
-  // margin-right: 25%;
   a {
     text-decoration: none;
     color: none;
@@ -27,7 +24,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // font-family: 'Devonshire';
   }
 
   header {
@@ -74,14 +70,6 @@ body {
     -webkit-text-fill-color: transparent;
     text-align: center;
   }
-  // .grid{
-  //   display: grid;
-  //   grid-template-columns: 1fr 1fr;
-  //   grid-template-rows: 300px 300px;
-  //   align-self: center;
-  //   justify-items: center;
-  //   grid-gap: 25px;
-  // }
   .titlea {
     font-family: "Montserrat";
     letter-spacing: -2px;
@@ -703,7 +691,6 @@ body {
   transform: translate3d(0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  perspective: 1000px;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
