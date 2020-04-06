@@ -35,6 +35,9 @@ body header {
 body article {
   align-self: center;
 }
+body section {
+  justify-content: center;
+}
 body footer {
   min-height: 15%;
   background-color: #579C87;
