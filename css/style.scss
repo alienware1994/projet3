@@ -3,7 +3,7 @@ $animate: all 0.2s ease-in-out; // font pour menu !!!
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script:wght@600&family=Devonshire&family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 img {
   width: 44%;
@@ -34,6 +34,9 @@ body {
     font-family: 'Montserrat';
     letter-spacing: -2px;
     color: #FDCB46;
+  }
+  article{
+    align-self: center;
   }
 
   footer {
@@ -74,6 +77,8 @@ body {
     font-family: "Montserrat";
     letter-spacing: -2px;
     color: #FDCB46;
+    font-size: 50px;
+    padding: 20px;
   }
 
   .pmenu1 {
@@ -536,7 +541,7 @@ body {
 
 .menupalette {
   margin: 70px auto;
-  background-color: #FFF5FE;
+  background-color: #FDFFFC;
   display: flex;
   flex-direction: column;
   width: 80%;

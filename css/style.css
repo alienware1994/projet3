@@ -32,6 +32,9 @@ body header {
   letter-spacing: -2px;
   color: #FDCB46;
 }
+body article {
+  align-self: center;
+}
 body footer {
   min-height: 15%;
   background-color: #579C87;
@@ -64,6 +67,8 @@ body .titlea {
   font-family: "Montserrat";
   letter-spacing: -2px;
   color: #FDCB46;
+  font-size: 50px;
+  padding: 20px;
 }
 body .pmenu1 {
   font-family: "Kalam", cursive;
@@ -465,7 +470,7 @@ body .imgmenu4 {
 
 .menupalette {
   margin: 70px auto;
-  background-color: #FFF5FE;
+  background-color: #FDFFFC;
   display: flex;
   flex-direction: column;
   width: 80%;
