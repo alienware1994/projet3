@@ -669,6 +669,8 @@ body .imgmenu4 {
     grid-gap: 20px;
     grid-template-columns: 1fr;
     grid-template-rows: 400px 400px 400px 400px;
+    width: 90%;
+    align-self: center;
   }
 
   .menu {
